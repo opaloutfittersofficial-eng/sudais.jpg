@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Muhammad Sudais | Billionaire Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:linear-gradient(-45deg,#14002e,#3b0764,#6d28d9,#9333ea);
+background-size:400% 400%;
+animation:gradientMove 15s infinite;
+color:white;
+
+}
+
+/* BACKGROUND ANIMATION */
+
+@keyframes gradientMove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:center;
+gap:45px;
+padding:20px;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(12px);
+position:sticky;
+top:0;
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:gold;
+transform:scale(1.2);
+
+}
+
+/* HERO */
+
+.hero{
+
+text-align:center;
+padding:120px 20px;
+
+}
+
+.hero img{
+
+width:190px;
+height:190px;
+border-radius:50%;
+border:5px solid gold;
+object-fit:cover;
+
+}
+
+.hero h1{
+
+font-size:48px;
+margin-top:20px;
+
+}
+
+#typing{
+
+color:gold;
+font-size:24px;
+margin-top:10px;
+
+}
+
+/* SERVICES */
+
+.services{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:40px;
+padding:60px;
+
+}
+
+.service{
+
+width:280px;
+height:180px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(15px);
+border-radius:20px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+transition:.4s;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+
+}
+
+.service:hover{
+
+transform:translateY(-12px) scale(1.05);
+
+}
+
+.service i{
+
+font-size:40px;
+margin-bottom:10px;
+color:gold;
+
+}
+
+/* SKILLS */
+
+.skills{
+
+width:70%;
+margin:auto;
+padding:50px;
+
+}
+
+.skill{
+
+margin:20px 0;
+
+}
+
+.bar{
+
+height:10px;
+background:rgba(255,255,255,0.2);
+border-radius:10px;
+
+}
+
+.progress{
+
+height:100%;
+background:gold;
+animation:grow 2s;
+
+}
+
+@keyframes grow{
+
+from{width:0}
+
+}
+
+/* PROJECTS */
+
+.projects{
+
+text-align:center;
+padding:60px;
+
+}
+
+.project{
+
+background:rgba(255,255,255,0.1);
+margin:15px auto;
+width:60%;
+padding:20px;
+border-radius:15px;
+
+}
+
+/* CONTACT */
+
+.contact{
+
+text-align:center;
+padding:60px;
+
+}
+
+form{
+
+width:60%;
+margin:auto;
+
+}
+
+input,textarea{
+
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+
+}
+
+button{
+
+background:gold;
+padding:12px 25px;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+
+</nav>
+
+<div class="hero">
+
+<img src="sudais.jpg">
+
+<h1>HI I AM MUHAMMAD SUDAIS</h1>
+
+<div id="typing"></div>
+
+</div>
+
+<div class="services">
+
+<div class="service">
+
+<i class="fa fa-link"></i>
+
+<h3>Guest Posting</h3>
+
+<p>2 Years Experience</p>
+
+</div>
+
+<div class="service">
+
+<i class="fa fa-chart-line"></i>
+
+<h3>Digital Marketing</h3>
+
+<p>1 Year Experience</p>
+
+</div>
+
+<div class="service">
+
+<i class="fa fa-search"></i>
+
+<h3>SEO Strategy</h3>
+
+<p>Backlink Growth</p>
+
+</div>
+
+</div>
+
+<div class="skills">
+
+<h2>My Skills</h2>
+
+<div class="skill">Guest Posting
+<div class="bar"><div class="progress" style="width:90%"></div></div>
+</div>
+
+<div class="skill">SEO
+<div class="bar"><div class="progress" style="width:85%"></div></div>
+</div>
+
+<div class="skill">Digital Marketing
+<div class="bar"><div class="progress" style="width:80%"></div></div>
+</div>
+
+</div>
+
+<div class="projects">
+
+<h2>My Projects</h2>
+
+<div class="project">High Authority Guest Post Campaign</div>
+<div class="project">SEO Backlink Growth Strategy</div>
+<div class="project">Digital Marketing Promotion Plan</div>
+
+</div>
+
+<div class="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea placeholder="Your Message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+<p>📞 03171960020</p>
+
+<p>📧 info.guestoutreach@gmail.com</p>
+
+</div>
+
+<script>
+
+/* TYPING */
+
+let text="Guest Poster | Digital Marketer | SEO Outreach Expert";
+
+let i=0;
+
+function typing(){
+
+if(i<text.length){
+
+document.getElementById("typing").innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,60);
+
+}
+
+}
+
+typing();
+
+</script>
+
+</body>
+
+</html>
